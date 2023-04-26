@@ -1,0 +1,11 @@
+-- badger.districts definition
+
+-- Drop table
+
+-- DROP TABLE badger.districts;
+
+CREATE TABLE badger.districts (
+	id bpchar(7) NOT NULL,
+	regency_id bpchar(4) NOT NULL,
+	"name" varchar(255) NOT NULL
+);
